@@ -4,7 +4,7 @@ DOCDIR = doc
 COQDOCDIR = $(DOCDIR)/coqdoc
 
 COQDOCHTMLFLAGS = -toc --toc-depth 0 --no-lib-name --lib-subtitles --html \
-  --index indexpage --parse-comments -utf8
+  --index indexpage --parse-comments -utf8 
 
 coqdoc: $(GLOBFILES) $(VFILES) $(HEADER) $(FOOTER) $(RESOURCES) $(FRONTPAGE)
 	$(SHOW)'COQDOC -d $(COQDOCDIR)'
