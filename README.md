@@ -1,10 +1,10 @@
 This page contains information about the "Proof assistants" master-level course
-of the [MPRI](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start)
+of the [Parisian Master in Research in Computer Science (MPRI)](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start)
 taught by [Yannick Forster](https://yforster.github.io/) and
 [Théo Winterhalter](https://theowinterhalter.github.io/).
 
 ## Table of contents
-* [Goals](#goals)
+* [Overview](#overview)
 * [Main information](#main-information)
 * [Teachers for 2024-2025](#teachers-for-2024-2025)
 * [Outline of the course](#outline-of-the-course)
@@ -13,12 +13,9 @@ taught by [Yannick Forster](https://yforster.github.io/) and
 * [Related courses](#related-courses)
 * [Related internships](#related-internships)
 * [Installing Coq](#installing-coq)
-	* [Installing the platform from binaries](#installing-the-platform-from-binaries)
-	* [Installing directly from `opam`](#installing-directly-from-opam)
-	* [Which editor to use?](#which-editor-to-use)
 * [References](#references)
 
-## Goals
+## Overview
 
 Proof assistants have a wide range of applications from mathematical theorems (including some, like the four colour theorem, that have no proof without the use of a computer) to program verification (which can be crucial for critical software, e.g. in aviation settings or cryptography).
 
@@ -26,11 +23,12 @@ Course objectives:
 The PRFA course aims at bringing students to a point where they are familiar enough with one proof assistant, namely Coq, with the objectives to have the students
 
 - to be able to use Coq in other courses,
-- use Coq in an internship (where their advisor is a user, but not an expert in proof assistants),
-- become an expert user of Coq via self study,
-- learn other proof assistants via self study.
+- use Coq in an internship,
+- learn other proof assistants or become an expert user of Coq via self study,
+- ultimately use or study proof assistants as part of a PhD.
 
-To this end, the course focuses on introducing general concepts found in proof assistance through the practice in the Coq proof assistant, and also mentions aspects of the underlying type theory.
+To this end, the course focuses on introducing general concepts found in proof assistants through practice in the Coq proof assistant, and also mentions aspects of the underlying type theory.
+A complementary introduction to type systems is part of the course [Foundations of proof systems](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-7-1).
 
 ## Main information
 
@@ -48,7 +46,7 @@ A background in functional programming, logic, or basic usage of Coq is preferab
 
 The course is divided over 8 weeks with the tentative following schedule. For each lecture, we plan to provide optional advanced exercises. Doing them is not mandatory to pass the course, but we encourage you to try them.
 
-- 23 Sept. Overview of the course. Presentation of proof assistants. Getting acquainted with Coq. [Live coding](coqdoc/live_coding1.html)
+- 23 Sept. Overview of the course. Presentation of proof assistants. Getting acquainted with Coq. [Live coding](coqdoc/PRFA.live_coding1.html)
 - 30 Sept. Inductive types.
 - 7 Oct.   Proof terms and meta-theory. Overview of other proof assistants.
 - 14 Oct.  Equality.
