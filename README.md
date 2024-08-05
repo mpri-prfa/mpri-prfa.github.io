@@ -128,6 +128,20 @@ dirname $(which coqtop)
 
 to find the corresponding path.
 
+#### Advanced users: VSCoq2
+
+For now, we recommend you use VSCoq Legacy, but a brand new version, VSCoq2,
+has been out for some time and is likely to be the default editor to use in the
+future. For now, it requires installing Coq with `opam`, and then the
+`vscoq-language-server` from `opam` too.
+
+```bash
+opam install vscoq-language-server
+```
+
+- [VSCoq2 for VSCode](https://marketplace.visualstudio.com/items?itemName=maximedenes.vscoq)
+- [VSCoq2 for VSCodium](xhttps://open-vsx.org/extension/maximedenes/vscoq)
+
 ## References
 
 The most important resources for you are:
