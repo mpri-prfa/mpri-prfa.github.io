@@ -1,5 +1,21 @@
 # Proof assistants
 
+* [Main information](#main-information)
+* [Teachers for 2024-2025](#teachers-for-2024-2025)
+* [Goals](#goals)
+* [Outline of the course](#outline-of-the-course)
+* [Evaluation](#evaluation)
+* [Language](#language)
+* [Related courses](#related-courses)
+* [Related internships](#related-internships)
+* [Installing Coq](#installing-coq)
+	* [Installing the platform from binaries](#installing-the-platform-from-binaries)
+	* [Installing directly from `opam`](#installing-directly-from-opam)
+	* [Which editor to use?](#which-editor-to-use)
+* [References](#references)
+
+## Main information
+
 The class takes place in room *1004* from 08:45 to 11:45. The first lecture is on *September 23rd*.
 
 Students must bring their own laptop with [Coq](https://coq.inria.fr/) installed *prior to the first lecture* (⚠️): we require version 8.18 together with Equations and MetaCoq installed. To that end, we assume students have [installed the corresponding Coq Platform](https://github.com/coq/platform/releases/tag/2023.11.0). Please don't hesitate to send us an email if you have trouble installing anything before the first lecture.
