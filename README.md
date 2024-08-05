@@ -47,16 +47,14 @@ A background in functional programming, logic, or basic usage of Coq is preferab
 
 The course is divided over 8 weeks with the tentative following schedule. For each lecture, we plan to provide optional advanced exercises. Doing them is not mandatory to pass the course, but we encourage you to try them.
 
-| Date    | Subject                                                                                | Files       |
-| :------ | :------------------------------------------------------------------------------------- | ----------- |
-| 23 Sept | Overview of the course. Presentation of proof assistants. Getting acquainted with Coq. | Live coding |
-| 30 Sept | Inductive types.                                                                       |             |
-| 7 Oct   | Proof terms and meta-theory. Overview of other proof assistants.                       |             |
-| 14 Oct  | Equality.                                                                              |             |
-| 21 Oct  | Mathematical modelling. Automation.                                                    |             |
-| 28 Oct  | Meta-programming and tactics.                                                          |             |
-| 4 Nov   | Advanced elimination / induction.                                                      |             |
-| 18 Nov  | Dependent functional programming. Conclusion.                                          |             |
+- 23 Sept. Overview of the course. Presentation of proof assistants. Getting acquainted with Coq. [Live coding](coqdoc/livecoding_1.html)
+- 30 Sept. Inductive types.
+- 7 Oct.   Proof terms and meta-theory. Overview of other proof assistants.
+- 14 Oct.  Equality.
+- 21 Oct.  Mathematical modelling. Automation.
+- 28 Oct.  Meta-programming and tactics.
+- 4 Nov.   Advanced elimination / induction.
+- 18 Nov.  Dependent functional programming. Conclusion.
 
 ## Evaluation
 
