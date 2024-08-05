@@ -139,7 +139,3 @@ Other related documents:
   * A. Mahboubi, E. Tassi. [Mathematical Components book](https://math-comp.github.io/mcb/).
   * I. Sergey. [Programs and Proofs: Mechanizing Mathematics with Dependent Types](https://ilyasergey.net/pnp/). Lecture Notes.
   * G. Smolka. [Modeling and Proving in Computational Type Theory Using the Coq Proof Assistant](https://www.ps.uni-saarland.de/~smolka/drafts/icl_book.pdf). Lecture Notes.
-
-In charge: [Théo Winterhalter](https://theowinterhalter.github.io/).
-
-  
