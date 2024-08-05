@@ -4,9 +4,9 @@ The class takes place in room *1004* from 08:45 to 11:45. The first lecture is o
 
 Students must bring their own laptop with [Coq](https://coq.inria.fr/) installed *prior to the first lecture* (⚠️): we require version 8.18 together with Equations and MetaCoq installed. To that end, we assume students have [installed the corresponding Coq Platform](https://github.com/coq/platform/releases/tag/2023.11.0). Please don't hesitate to send us an email if you have trouble installing anything before the first lecture. 
 
-[⬇️See below for precise information on how to install Coq](#installing_coq) or [for which editor to use. ⬇️](#which_editor_to_use).
+[⬇️See below for precise information on how to install Coq](#installing-coq) or [for which editor to use. ⬇️](#which-editor-to-use).
 
-Please check your installation is correct by trying to run the [test file we provide (make sure to save it with a .v extension without dashes (-))](downloads/prfa24/test_file.v). Once again, contact us if you have any trouble.
+Please check your installation is correct by trying to run the [test file we provide (make sure to save it with a .v extension without dashes (-))](downloads/2024/test_file.v). Once again, contact us if you have any trouble.
 
 A background in functional programming, logic, or basic usage of Coq is preferable, but not mandatory or necessary to pass the lecture.
 
@@ -130,7 +130,7 @@ Books to learn Coq:
 
   * B. C. Pierce, C. Casinghino, M. Gaboardi, M. Greenberg, C. Hriţcu, V. Sjöberg, B. Yorgey. [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf/current/index.html) (Volume 1).
   * A. Chlipala. [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/).
-  * Y. Bertot, P. Castéran. Interactive Theorem Proving and Program Development, [Coq'Art: The Calculus of Inductive Constructions](https://www.labri.fr/perso/casteran/CoqArt/). \\ Texts in Theoretical Computer Science. An EATCS Series (2004), Springer. ([Version française](http://www.labri.fr/perso/casteran/CoqArt/coqartF.pdf)).
+  * Y. Bertot, P. Castéran. Interactive Theorem Proving and Program Development, [Coq'Art: The Calculus of Inductive Constructions](https://www.labri.fr/perso/casteran/CoqArt/).
 
 Other related documents:
 
