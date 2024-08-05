@@ -2,33 +2,33 @@
 
 The class takes place in room *1004* from 08:45 to 11:45. The first lecture is on *September 23rd*.
 
-Students must bring their own laptop with [Coq](https://coq.inria.fr/) installed *prior to the first lecture* (⚠️): we require version 8.18 together with Equations and MetaCoq installed. To that end, we assume students have [installed the corresponding Coq Platform](https://github.com/coq/platform/releases/tag/2023.11.0). Please don't hesitate to send us an email if you have trouble installing anything before the first lecture. 
+Students must bring their own laptop with [Coq](https://coq.inria.fr/) installed *prior to the first lecture* (⚠️): we require version 8.18 together with Equations and MetaCoq installed. To that end, we assume students have [installed the corresponding Coq Platform](https://github.com/coq/platform/releases/tag/2023.11.0). Please don't hesitate to send us an email if you have trouble installing anything before the first lecture.
 
-[⬇️See below for precise information on how to install Coq](#installing-coq) or [for which editor to use. ⬇️](#which-editor-to-use).
+[⬇️ See below for precise information on how to install Coq](#installing-coq) or [for which editor to use. ⬇️](#which-editor-to-use)
 
 Please check your installation is correct by trying to run the [test file we provide (make sure to save it with a .v extension without dashes (-))](downloads/2024/test_file.v). Once again, contact us if you have any trouble.
 
 A background in functional programming, logic, or basic usage of Coq is preferable, but not mandatory or necessary to pass the lecture.
 
-## Teachers for 2024-2025 
+## Teachers for 2024-2025
 
 * [Yannick Forster](https://yforster.github.io/), Chargé de Recherche Inria Paris
 * [Théo Winterhalter](https://theowinterhalter.github.io/), Chargé de Recherche Inria Saclay
 
-## Goals 
+## Goals
 
-Proof assistants have a wide range of applications from mathematical theorems (including some, like the four colour theorem, that have no proof without the use of a computer) to program verification (which can be crucial for critical software, e.g. in aviation settings or cryptography). 
+Proof assistants have a wide range of applications from mathematical theorems (including some, like the four colour theorem, that have no proof without the use of a computer) to program verification (which can be crucial for critical software, e.g. in aviation settings or cryptography).
 
 Course objectives:
 The PRFA course aims at bringing students to a point where they are familiar enough with one proof assistant, namely Coq, with the objectives to have the students
-- to be able to use Coq in other courses, 
-- use Coq in an internship (where their advisor is a user, but not an expert in proof assistants), 
+- to be able to use Coq in other courses,
+- use Coq in an internship (where their advisor is a user, but not an expert in proof assistants),
 - become an expert user of Coq via self study,
-- learn other proof assistants via self study. 
+- learn other proof assistants via self study.
 
 To this end, the course focuses on introducing general concepts found in proof assistance through the practice in the Coq proof assistant, and also mentions aspects of the underlying type theory.
 
-## Outline of the course 
+## Outline of the course
 
 The course is divided over 8 weeks with the tentative following schedule. For each lecture, we plan to provide optional advanced exercises. Doing them is not mandatory to pass the course, but we encourage you to try them.
 
@@ -41,22 +41,22 @@ The course is divided over 8 weeks with the tentative following schedule. For ea
 - 4 Nov. Advanced elimination / induction.
 - 18 Nov. Dependent functional programming. Conclusion.
 
-## Evaluation 
+## Evaluation
 
 There will be an exam and a project, each counting for half of the final grade.
 
-## Language 
+## Language
 
 The course will be taught in English by default. You can still ask us questions or write the exam in French.
 
-## Related courses 
+## Related courses
 
 - [Foundations of proof systems](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-7-1)
 - [Proof of Programs](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-36-1)
-- [Functional programming and type systems](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-4-2) 
-- [Models of programming languages: domains, categories, games](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-2) 
+- [Functional programming and type systems](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-4-2)
+- [Models of programming languages: domains, categories, games](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-2)
 
-## Related internships 
+## Related internships
 
 Do not hesitate to contact us about advice around internships in the field, starting from the beginning of the course. We know a lot of people in the field so we can help you.
 
@@ -76,9 +76,9 @@ You can also follow instructions in there to find alternative ways to install th
 
 If you are on macOS make sure to read the notes towards the end of the file: macOS will probably refuse to launch CoqIDE unless you open your system settings and explicitly allow it to run.
 
-### Installing directly from opam
+### Installing directly from `opam`
 
-In case you want to use the ocaml package manager [opam](https://opam.ocaml.org/), first make sure you have [opam 2](https://opam.ocaml.org/doc/Install.html) installed. Then run the following commands:
+In case you want to use the OCaml package manager [opam](https://opam.ocaml.org/), first make sure you have [opam 2](https://opam.ocaml.org/doc/Install.html) installed. Then run the following commands:
 
 ```bash
 opam repo add coq-released https://coq.inria.fr/opam/released
@@ -100,13 +100,13 @@ We recommend you use either [CoqIDE](https://coq.inria.fr/distrib/V8.18.1/refman
 
 If you installed the Coq Platform, then you should have CoqIDE ready to go with the correct version. It should be the simplest tool to use as the interface is built exactly for Coq. You can press button to evaluate a file etc.
 
-VSCoq will let you use a more modern approach. Install version v0.3.9 [for VSCode](https://marketplace.visualstudio.com/items?itemName=maximedenes.vscoq) or [VSCodium](https://open-vsx.org/extension/maximedenes/vscoq). If you have installed Coq via opam, then it should be in your PATH and VSCoq should pick it up (if you open a .v file, such as the test file we provide, it will complain if it did not find a Coq installation). In case it doesn't find it automatically—*e.g.* if you installed the Coq Platform—then you can try to launch VSCode from a terminal that finds Coq by running
+VSCoq will let you use a more modern approach. Install VSCoq Legacy [for VSCode](https://marketplace.visualstudio.com/items?itemName=coq-community.vscoq1) or [VSCodium](https://open-vsx.org/extension/coq-community/vscoq1). If you have installed Coq via opam, then it should be in your PATH and VSCoq should pick it up (if you open a `.v` file, such as the test file we provide, it will complain if it did not find a Coq installation). In case it doesn't find it automatically—*e.g.* if you installed the Coq Platform—then you can try to launch VSCode from a terminal that finds Coq by running
 
 ```bash
 code .
 ```
 
-If it doesn't work, you can open the settings for VSCode and search for "Coq Bin Path", this will let you add the path to the folder containing the Coq binary. It depends on where you installed it. If you have a terminal which finds coq then you can run
+If it doesn't work, you can open the settings for VSCode and search for `Coq Bin Path`, this will let you add the path to the folder containing the Coq binary. It depends on where you installed it. If you have a terminal which finds coq then you can run
 
 ```bash
 dirname $(which coqtop)
@@ -114,9 +114,10 @@ dirname $(which coqtop)
 
 to find the corresponding path.
 
-## References 
+## References
 
 The most important resources for you are:
+
   * [Documentation of Coq 8.18.0](https://coq.inria.fr/distrib/V8.18.0/refman/), [list of tactics](https://coq.inria.fr/distrib/V8.18.0/refman/coq-tacindex.html), [list of commands](https://coq.inria.fr/distrib/V8.18.0/refman/coq-cmdindex.html).
   * [Coq official website](https://coq.inria.fr/).
   * [Coq Platform 8.18.0 release](https://github.com/coq/platform/releases/tag/2023.11.0).
