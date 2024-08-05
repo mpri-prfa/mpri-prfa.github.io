@@ -37,7 +37,7 @@ Students must bring their own laptop with [Coq](https://coq.inria.fr/) installed
 
 [⬇️ See below for precise information on how to install Coq](#installing-coq) or [for which editor to use. ⬇️](#which-editor-to-use)
 
-Please check your installation is correct by trying to run the [test file we provide](downloads/2024/test_file.v) (make sure to save it with a .v extension without dashes (-)). Once again, contact us if you have any trouble.
+Please check your installation is correct by trying to run the [test file we provide](2024/test_file.v) (make sure to save it with a .v extension without dashes (-)). Once again, contact us if you have any trouble.
 
 A background in functional programming, logic, or basic usage of Coq is preferable, but not mandatory or necessary to pass the lecture.
 
@@ -82,7 +82,7 @@ Do not hesitate to contact us about advice around internships in the field, star
 
 We require the students to come with laptop on which [Coq](https://coq.inria.fr/) 8.18.0 is already installed. We additionally require [MetaCoq](https://metacoq.github.io/) 1.2.1 and [Equations](https://mattam82.github.io/Coq-Equations/) 1.3. The easiest way to install all of them at once, together with [CoqIDE](https://coq.inria.fr/distrib/V8.16.1/refman/practical-tools/coqide.html) is to install the [Coq Platform 2023.11.0](https://github.com/coq/platform/releases/tag/2023.11.0) at the _extended level_.
 
-You have several options: installing the Coq Platform from binaries, or installing the packages separately using opam. If you elect other ways to install Coq (eg. using Nix) then we may not be able to help you. In any case, check that everything works as expected on the [test file we provide](downloads/2024/test_file.v).
+You have several options: installing the Coq Platform from binaries, or installing the packages separately using opam. If you elect other ways to install Coq (eg. using Nix) then we may not be able to help you. In any case, check that everything works as expected on the [test file we provide](2024/test_file.v).
 
 Please contact us ahead of time if you have trouble installing Coq or checking that the test file works.
 
