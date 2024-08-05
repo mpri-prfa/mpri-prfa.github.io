@@ -24,7 +24,7 @@ Students must bring their own laptop with [Coq](https://coq.inria.fr/) installed
 
 [⬇️ See below for precise information on how to install Coq](#installing-coq) or [for which editor to use. ⬇️](#which-editor-to-use)
 
-Please check your installation is correct by trying to run the [test file we provide (make sure to save it with a .v extension without dashes (-))](downloads/2024/test_file.v). Once again, contact us if you have any trouble.
+Please check your installation is correct by trying to run the [test file we provide](downloads/2024/test_file.v) (make sure to save it with a .v extension without dashes (-)). Once again, contact us if you have any trouble.
 
 A background in functional programming, logic, or basic usage of Coq is preferable, but not mandatory or necessary to pass the lecture.
 
