@@ -3,3 +3,11 @@
 *.vo
 *.vok
 *.vos
+
+.DS_Store
+
+.Makefile.coq.d
+Makefile.coq
+Makefile.coq.conf
+
+doc/coqdoc/*
