@@ -24,6 +24,7 @@ Proof assistants have a wide range of applications from mathematical theorems (i
 
 Course objectives:
 The PRFA course aims at bringing students to a point where they are familiar enough with one proof assistant, namely Coq, with the objectives to have the students
+
 - to be able to use Coq in other courses,
 - use Coq in an internship (where their advisor is a user, but not an expert in proof assistants),
 - become an expert user of Coq via self study,
