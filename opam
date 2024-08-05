@@ -10,6 +10,6 @@ authors: [
 depends: [
   "coq" { >= "8.18" & < "8.19~" }
   "coq-equations" { >= "1.3" }
-  "coq-metacoq"
+  "coq-metacoq-template"
 ]
 build: [make "-j%{jobs}%"]
