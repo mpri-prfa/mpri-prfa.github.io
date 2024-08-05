@@ -1,5 +1,3 @@
-# Proof assistants
-
 * [Main information](#main-information)
 * [Teachers for 2024-2025](#teachers-for-2024-2025)
 * [Goals](#goals)
