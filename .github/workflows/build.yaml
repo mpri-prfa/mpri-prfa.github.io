@@ -41,11 +41,7 @@ jobs:
               opam exec -- ocamlfind list
             endGroup
           install: |
-            startGroup "Install dependencies"
-              # sudo apt-get update -y -q
-              opam pin add -n -y -k path $PACKAGE $WORKDIR
-              # opam update -y
-              opam install --confirm-level=unsafe-yes -j 2 $PACKAGE --deps-only
+            startGroup "Overwrite default install script"
             endGroup
           script: |
             startGroup "Build project"
