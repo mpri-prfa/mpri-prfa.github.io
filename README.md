@@ -2,9 +2,9 @@ This page contains information about the "Proof assistants" master-level course
 of the [MPRI](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start).
 
 ## Table of contents
+* [Goals](#goals)
 * [Main information](#main-information)
 * [Teachers for 2024-2025](#teachers-for-2024-2025)
-* [Goals](#goals)
 * [Outline of the course](#outline-of-the-course)
 * [Evaluation](#evaluation)
 * [Language](#language)
@@ -15,6 +15,19 @@ of the [MPRI](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start).
 	* [Installing directly from `opam`](#installing-directly-from-opam)
 	* [Which editor to use?](#which-editor-to-use)
 * [References](#references)
+
+## Goals
+
+Proof assistants have a wide range of applications from mathematical theorems (including some, like the four colour theorem, that have no proof without the use of a computer) to program verification (which can be crucial for critical software, e.g. in aviation settings or cryptography).
+
+Course objectives:
+The PRFA course aims at bringing students to a point where they are familiar enough with one proof assistant, namely Coq, with the objectives to have the students
+- to be able to use Coq in other courses,
+- use Coq in an internship (where their advisor is a user, but not an expert in proof assistants),
+- become an expert user of Coq via self study,
+- learn other proof assistants via self study.
+
+To this end, the course focuses on introducing general concepts found in proof assistance through the practice in the Coq proof assistant, and also mentions aspects of the underlying type theory.
 
 ## Main information
 
@@ -32,19 +45,6 @@ A background in functional programming, logic, or basic usage of Coq is preferab
 
 * [Yannick Forster](https://yforster.github.io/), Chargé de Recherche Inria Paris
 * [Théo Winterhalter](https://theowinterhalter.github.io/), Chargé de Recherche Inria Saclay
-
-## Goals
-
-Proof assistants have a wide range of applications from mathematical theorems (including some, like the four colour theorem, that have no proof without the use of a computer) to program verification (which can be crucial for critical software, e.g. in aviation settings or cryptography).
-
-Course objectives:
-The PRFA course aims at bringing students to a point where they are familiar enough with one proof assistant, namely Coq, with the objectives to have the students
-- to be able to use Coq in other courses,
-- use Coq in an internship (where their advisor is a user, but not an expert in proof assistants),
-- become an expert user of Coq via self study,
-- learn other proof assistants via self study.
-
-To this end, the course focuses on introducing general concepts found in proof assistance through the practice in the Coq proof assistant, and also mentions aspects of the underlying type theory.
 
 ## Outline of the course
 
