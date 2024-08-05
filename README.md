@@ -47,7 +47,7 @@ A background in functional programming, logic, or basic usage of Coq is preferab
 
 The course is divided over 8 weeks with the tentative following schedule. For each lecture, we plan to provide optional advanced exercises. Doing them is not mandatory to pass the course, but we encourage you to try them.
 
-- 23 Sept. Overview of the course. Presentation of proof assistants. Getting acquainted with Coq. [Live coding](coqdoc/livecoding_1.html)
+- 23 Sept. Overview of the course. Presentation of proof assistants. Getting acquainted with Coq. [Live coding](coqdoc/PRFA.live_coding1.html)
 - 30 Sept. Inductive types.
 - 7 Oct.   Proof terms and meta-theory. Overview of other proof assistants.
 - 14 Oct.  Equality.
