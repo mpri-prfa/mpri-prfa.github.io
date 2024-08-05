@@ -1,5 +1,7 @@
 This page contains information about the "Proof assistants" master-level course
-of the [MPRI](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start).
+of the [MPRI](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start)
+taught by [Yannick Forster](https://yforster.github.io/) and
+[Théo Winterhalter](https://theowinterhalter.github.io/).
 
 ## Table of contents
 * [Goals](#goals)
@@ -40,11 +42,6 @@ Students must bring their own laptop with [Coq](https://coq.inria.fr/) installed
 Please check your installation is correct by trying to run the [test file we provide](2024/test_file.v) (make sure to save it with a .v extension without dashes (-)). Once again, contact us if you have any trouble.
 
 A background in functional programming, logic, or basic usage of Coq is preferable, but not mandatory or necessary to pass the lecture.
-
-## Teachers for 2024-2025
-
-* [Yannick Forster](https://yforster.github.io/), Chargé de Recherche Inria Paris
-* [Théo Winterhalter](https://theowinterhalter.github.io/), Chargé de Recherche Inria Saclay
 
 ## Outline of the course
 
