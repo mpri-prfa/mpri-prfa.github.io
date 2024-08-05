@@ -1,3 +1,7 @@
+This page contains information about the "Proof assistants" master-level course
+of the [MPRI](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start).
+
+## Table of contents
 * [Main information](#main-information)
 * [Teachers for 2024-2025](#teachers-for-2024-2025)
 * [Goals](#goals)
