@@ -1,12 +1,12 @@
-This page contains information about the "Proof assistants" master-level course
+This page contains information about the "Proof assistants"
+course in the second year (M2)
 of the [Parisian Master in Research in Computer Science (MPRI)](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start)
-taught by [Yannick Forster](https://yforster.github.io/) and
+taught by [Yannick Forster](https://yforster.de/) and
 [Théo Winterhalter](https://theowinterhalter.github.io/).
 
 ## Table of contents
 * [Overview](#overview)
 * [Main information](#main-information)
-* [Teachers for 2024-2025](#teachers-for-2024-2025)
 * [Outline of the course](#outline-of-the-course)
 * [Evaluation](#evaluation)
 * [Language](#language)
