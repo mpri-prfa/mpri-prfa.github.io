@@ -813,3 +813,15 @@ code > span.in { color: #969896; font-weight: bold; font-style: italic; } /* Inf
     background-color: rgba(180, 237, 95, 0.5);
   }
 }
+
+/*** Personal additions ***/
+
+/* TIPS */
+
+div.tip {
+  border-left: 2px solid rgb(48, 148, 48);
+}
+
+div.tip > div.title p {
+  color: rgb(48, 148, 48);
+}
