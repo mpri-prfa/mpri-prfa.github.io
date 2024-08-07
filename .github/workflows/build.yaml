@@ -67,6 +67,7 @@ jobs:
             --css=github-pandoc.css
             --toc
             --toc-depth=2
+            --resource-path=.
             README.md
 
       - name: Move images
