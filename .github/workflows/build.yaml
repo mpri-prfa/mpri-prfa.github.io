@@ -61,7 +61,7 @@ jobs:
         uses: docker://pandoc/core:3.2
         with:
           args: >-  # allows you to break string into multiple lines
-            --from commonmark+alerts
+            --from commonmark_x+alerts
             --standalone
             --output=doc/index.html
             --template=pandoc/template.html4
