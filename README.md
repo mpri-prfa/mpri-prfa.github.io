@@ -141,10 +141,6 @@ opam install vscoq-language-server
 
 ## References
 
-This course has been taught in different formats since 1997,
-by Christine Paulin-Mohring, Benjamin Werner, Bruno Barras, Hugo Herbelin, Jean-Christophe Filliâtre, Claude Marché, Guillaume Melquiond, Assia Mahboubi, Matthieu Sozeau, Yannick Forster, and Théo Winterhalter.
-Parts of the material we teach is taken or inspired from previous iterations of the course.
-
 The most important resources for you are:
 
   * [Documentation of Coq 8.18.0](https://coq.inria.fr/distrib/V8.18.0/refman/), [list of tactics](https://coq.inria.fr/distrib/V8.18.0/refman/coq-tacindex.html), [list of commands](https://coq.inria.fr/distrib/V8.18.0/refman/coq-cmdindex.html).
@@ -168,4 +164,8 @@ Other related documents:
   * E. Rijke. [Introduction to homotopy type theory](https://arxiv.org/abs/2212.11082). arXiv preprint arXiv:2212.11082 (2022).
   * A. Mahboubi, E. Tassi. [Mathematical Components book](https://math-comp.github.io/mcb/).
   * I. Sergey. [Programs and Proofs: Mechanizing Mathematics with Dependent Types](https://ilyasergey.net/pnp/). Lecture Notes.
-  * G. Smolka. [Modeling and Proving in Computational Type Theory Using the Coq Proof Assistant](https://www.ps.uni-saarland.de/~smolka/drafts/icl_book.pdf). Lecture Notes.
+  * G. Smolka. [Modeling and Proving in Computational Type Theory Using the Coq Proof Assistant](https://www.ps.uni-saarland.de/~smolka/drafts/mpctt.pdf). Lecture Notes.
+
+This course has been taught in different formats since 1997,
+by Christine Paulin-Mohring, Benjamin Werner, Bruno Barras, Hugo Herbelin, Jean-Christophe Filliâtre, Claude Marché, Guillaume Melquiond, Assia Mahboubi, Matthieu Sozeau, Yannick Forster, and Théo Winterhalter.
+Parts of the material we teach is taken or inspired from previous iterations of the course.
