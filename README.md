@@ -144,6 +144,10 @@ opam install vscoq-language-server
 
 ## References
 
+This course has been taught in different formats since 1997,
+by Christine Paulin-Mohring, Benjamin Werner, Bruno Barras, Hugo Herbelin, Jean-Christophe Filliâtre, Claude Marché, Guillaume Melquiond, Assia Mahboubi, Matthieu Sozeau, Yannick Forster, and Théo Winterhalter.
+Parts of the material we teach is taken or inspired from previous iterations of the course.
+
 The most important resources for you are:
 
   * [Documentation of Coq 8.18.0](https://coq.inria.fr/distrib/V8.18.0/refman/), [list of tactics](https://coq.inria.fr/distrib/V8.18.0/refman/coq-tacindex.html), [list of commands](https://coq.inria.fr/distrib/V8.18.0/refman/coq-cmdindex.html).
