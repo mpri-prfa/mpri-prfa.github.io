@@ -1,11 +1,10 @@
 ---
 title: Proof Assistants
 title-prefix: MPRI M2
-toc-title: Table of Contents
 include-before: |
   # Proof Assistants
   
-  <img src="img/prfa-logo.svg" alt="MPRI PRFA" width="300px">
+  <p style="text-align:center;"><img src="img/prfa-logo.svg" alt="MPRI PRFA" width="300px"></p>
   
   This page contains information about the "Proof assistants"
   course in the second year (M2)

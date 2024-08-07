@@ -63,8 +63,10 @@ jobs:
           args: >-  # allows you to break string into multiple lines
             --standalone
             --output=doc/index.html
+            --template=pandoc/template.html4
             --css=github-pandoc.css
-            --metadata title="Proof assistants"
+            --toc
+            --toc-depth=2
             README.md
 
       - name: Move images
