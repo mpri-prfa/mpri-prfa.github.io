@@ -31,7 +31,10 @@ The class takes place in [room *1004* from 08:45 to 11:45](https://wikimpri.dpti
 
 Students must bring their own laptop with [Coq](https://coq.inria.fr/) installed *prior to the first lecture* (⚠️): we require version 8.18 together with Equations and MetaCoq installed. To that end, we assume students have [installed the corresponding Coq Platform](https://github.com/coq/platform/releases/tag/2023.11.0). Please don't hesitate to send us an [email](mailto:yannick.forster@inria.fr,theo.winterhalter@inria.fr) if you have trouble installing anything before the first lecture.
 
-[⬇️ See below for precise information on how to install Coq](#installing-coq) or [for which editor to use. ⬇️](#which-editor-to-use)
+> [!TIP]
+> You will find informations below about
+> [installing Coq](#installing-coq)
+> and [for which editor to use](#which-editor-to-use).
 
 Please check your installation is correct by trying to run the [test file we provide](2024/test_file.v). Once again, [contact us](mailto:yannick.forster@inria.fr,theo.winterhalter@inria.fr) if you have any trouble.
 
