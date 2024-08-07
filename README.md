@@ -1,4 +1,4 @@
-<img src="img/prfa-logo.svg" alt="MPRI PRFA">
+<img src="img/prfa-logo.svg" alt="MPRI PRFA" width="300px">
 
 This page contains information about the "Proof assistants"
 course in the second year (M2)
