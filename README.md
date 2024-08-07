@@ -1,21 +1,18 @@
-<img src="img/prfa-logo.svg" alt="MPRI PRFA" width="300px">
-
-This page contains information about the "Proof assistants"
-course in the second year (M2)
-of the [Parisian Master in Research in Computer Science (MPRI)](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start)
-taught by [Yannick Forster](https://yforster.de/) and
-[Théo Winterhalter](https://theowinterhalter.github.io/).
-
-## Table of contents
-* [Overview](#overview)
-* [Main information](#main-information)
-* [Outline of the course](#outline-of-the-course)
-* [Evaluation](#evaluation)
-* [Language](#language)
-* [Related courses](#related-courses)
-* [Related internships](#related-internships)
-* [Installing Coq](#installing-coq)
-* [References](#references)
+---
+title: Proof Assistants
+title-prefix: MPRI M2
+toc-title: Table of Contents
+include-before: |
+  # Proof Assistants
+  
+  <img src="img/prfa-logo.svg" alt="MPRI PRFA" width="300px">
+  
+  This page contains information about the "Proof assistants"
+  course in the second year (M2)
+  of the [Parisian Master in Research in Computer Science (MPRI)](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start)
+  taught by [Yannick Forster](https://yforster.de/) and
+  [Théo Winterhalter](https://theowinterhalter.github.io/).
+---
 
 ## Overview
 
@@ -34,15 +31,17 @@ A complementary introduction to type systems is part of the course [Foundations 
 
 ## Main information
 
-The class takes place in room *1004* from 08:45 to 11:45. The first lecture is on *September 23rd*.
+The class takes place in [room *1004* from 08:45 to 11:45](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=emploidutemps24#schedule_m2-mpri_courses). The first lecture is on *September 23rd*.
 
-Students must bring their own laptop with [Coq](https://coq.inria.fr/) installed *prior to the first lecture* (⚠️): we require version 8.18 together with Equations and MetaCoq installed. To that end, we assume students have [installed the corresponding Coq Platform](https://github.com/coq/platform/releases/tag/2023.11.0). Please don't hesitate to send us an email if you have trouble installing anything before the first lecture.
+Students must bring their own laptop with [Coq](https://coq.inria.fr/) installed *prior to the first lecture* (⚠️): we require version 8.18 together with Equations and MetaCoq installed. To that end, we assume students have [installed the corresponding Coq Platform](https://github.com/coq/platform/releases/tag/2023.11.0). Please don't hesitate to send us an [email](mailto:yannick.forster@inria.fr,theo.winterhalter@inria.fr) if you have trouble installing anything before the first lecture.
 
 [⬇️ See below for precise information on how to install Coq](#installing-coq) or [for which editor to use. ⬇️](#which-editor-to-use)
 
-Please check your installation is correct by trying to run the [test file we provide](2024/test_file.v) (make sure to save it with a .v extension without dashes (-)). Once again, contact us if you have any trouble.
+Please check your installation is correct by trying to run the [test file we provide](2024/test_file.v). Once again, [contact us](mailto:yannick.forster@inria.fr,theo.winterhalter@inria.fr) if you have any trouble.
 
-A background in functional programming, logic, or basic usage of Coq is preferable, but not mandatory or necessary to pass the lecture.
+A background in functional programming and logic is preferable, but not mandatory or necessary to pass the lecture.
+Experience in using Coq is not necessary. 
+The class is designed to be interesting both for absolute newcomers and students with background using Coq.
 
 ## Outline of the course
 
