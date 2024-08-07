@@ -36,7 +36,7 @@ Students must bring their own laptop with [Coq](https://coq.inria.fr/) installed
 Please check your installation is correct by trying to run the [test file we provide](2024/test_file.v). Once again, [contact us](mailto:yannick.forster@inria.fr,theo.winterhalter@inria.fr) if you have any trouble.
 
 A background in functional programming and logic is preferable, but not mandatory or necessary to pass the lecture.
-Experience in using Coq is not necessary. 
+Experience in using Coq is not necessary.
 The class is designed to be interesting both for absolute newcomers and students with background using Coq.
 
 ## Outline of the course
@@ -149,8 +149,10 @@ The most important resources for you are:
   * [Coq Zulip chat](https://coq.zulipchat.com/) which is the most active platform for asking questions about Coq. [A (not so easy to read) archive is publicly available](https://coq.gitlab.io/zulip-archive/).
   * [Equations website](https://mattam82.github.io/Coq-Equations/).
   * [MetaCoq website](https://metacoq.github.io/).
-  * [VSCoq (v0.3.9) for VSCode](https://marketplace.visualstudio.com/items?itemName=maximedenes.vscoq).
-  * [VSCoq (v0.3.9) for VSCodium](https://open-vsx.org/extension/maximedenes/vscoq).
+  * [VSCoq Legacy for VSCode](https://marketplace.visualstudio.com/items?itemName=coq-community.vscoq1).
+  * [VSCoq Legacy for VSCodium](https://open-vsx.org/extension/coq-community/vscoq1).
+  * [VSCoq2 for VSCode](https://marketplace.visualstudio.com/items?itemName=maximedenes.vscoq).
+  * [VSCoq2 for VSCodium](xhttps://open-vsx.org/extension/maximedenes/vscoq).
 
 Books to learn Coq:
 
