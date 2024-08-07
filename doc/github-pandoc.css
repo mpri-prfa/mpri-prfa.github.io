@@ -829,6 +829,7 @@ div.tip > div.title p {
   margin-bottom: -15px;
 }
 
-div.tip > div.title p ::before {
-  content: url(img/favicon.svg);
+div.tip > div.title p::before {
+  content: '💡';
+  margin-right: 4px;
 }
