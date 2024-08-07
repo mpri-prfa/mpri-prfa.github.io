@@ -303,7 +303,7 @@ button,
 html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button; /* 2 */
+  appearance: button; /* 2 */
   cursor: pointer; /* 3 */
 }
 
@@ -367,7 +367,7 @@ input[type="number"]::-webkit-outer-spin-button {
 */
 
 input[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
+  appearance: textfield; /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box; /* 2 */
   box-sizing: content-box;
@@ -737,12 +737,12 @@ code > span.cn { color: #880000; } /* Constant */
 code > span.sc { color: #183691; } /* SpecialChar */
 code > span.vs { color: #183691; } /* VerbatimString */
 code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
+/* code > span.im { } */ /* Import */
 code > span.va { color: #19177c; } /* Variable */
 code > span.cf { color: #a71d5d; font-weight: normal; } /* ControlFlow */
 code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
+/* code > span.bu { } */ /* BuiltIn */
+/* code > span.ex { } */ /* Extension */
 code > span.pp { color: #bc7a00; } /* Preprocessor */
 code > span.at { color: #0086b3; } /* Attribute */
 code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
