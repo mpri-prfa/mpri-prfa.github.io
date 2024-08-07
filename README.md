@@ -2,10 +2,8 @@
 title: Proof Assistants
 title-prefix: MPRI M2
 include-before: |
-  # Proof Assistants
-  
   <p style="text-align:center;"><img src="img/prfa-logo.svg" alt="MPRI PRFA" width="300px"></p>
-  
+
   This page contains information about the "Proof assistants"
   course in the second year (M2)
   of the [Parisian Master in Research in Computer Science (MPRI)](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start)
