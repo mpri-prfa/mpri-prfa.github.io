@@ -833,3 +833,35 @@ div.tip > div.title p::before {
   content: '💡';
   margin-right: 4px;
 }
+
+div.important {
+  border-left: 4px solid rgb(115, 32, 136);
+  padding-left: 10px;
+}
+
+div.important > div.title p {
+  color: rgb(115, 32, 136);
+  font-weight: bold;
+  margin-bottom: -15px;
+}
+
+div.important > div.title p::before {
+  content: '❗';
+  margin-right: 4px;
+}
+
+div.warning {
+  border-left: 4px solid rgb(115, 32, 136);
+  padding-left: 10px;
+}
+
+div.warning > div.title p {
+  color: rgb(115, 32, 136);
+  font-weight: bold;
+  margin-bottom: -15px;
+}
+
+div.warning > div.title p::before {
+  content: '⚠️';
+  margin-right: 4px;
+}

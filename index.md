@@ -80,7 +80,8 @@ We require the students to come with laptop on which [Coq](https://coq.inria.fr/
 
 You have several options: installing the Coq Platform from binaries, or installing the packages separately using opam. If you elect other ways to install Coq (eg. using Nix) then we may not be able to help you. In any case, check that everything works as expected on the [test file we provide](2024/test_file.v).
 
-Please contact us ahead of time if you have trouble installing Coq or checking that the test file works.
+> [!IMPORTANT]
+> Please contact us ahead of time if you have trouble installing Coq or checking that the test file works.
 
 ### Installing the platform from binaries
 
@@ -88,7 +89,8 @@ Installation should be as simple as downloading the binaries corresponding to yo
 
 You can also follow instructions in there to find alternative ways to install the extended level of the platform.
 
-If you are on macOS make sure to read the notes towards the end of the file: macOS will probably refuse to launch CoqIDE unless you open your system settings and explicitly allow it to run.
+> [!WARNING]
+> If you are on macOS make sure to read the notes towards the end of the file: macOS will probably refuse to launch CoqIDE unless you open your system settings and explicitly allow it to run.
 
 ### Installing directly from `opam`
 
