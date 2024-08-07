@@ -28,6 +28,10 @@ $if(mathjax)$
 $endif$
   $math$
 $endif$
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.svg">
+  <link rel=”mask-icon” href=”mask-icon.svg” color=”#000000">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <body>
 $for(include-before)$
