@@ -819,9 +819,16 @@ code > span.in { color: #969896; font-weight: bold; font-style: italic; } /* Inf
 /* TIPS */
 
 div.tip {
-  border-left: 2px solid rgb(48, 148, 48);
+  border-left: 4px solid rgb(48, 148, 48);
+  padding-left: 10px;
 }
 
 div.tip > div.title p {
   color: rgb(48, 148, 48);
+  font-weight: bold;
+  margin-bottom: -15px;
+}
+
+div.tip > div.title p ::before {
+  content: url(img/favicon.svg);
 }
