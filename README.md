@@ -4,7 +4,7 @@ title-prefix: MPRI M2
 include-before: |
   <p style="text-align:center;"><img src="img/prfa-logo.svg" alt="MPRI PRFA" width="300px"></p>
 
-  This page contains information about the "Proof assistants"
+  This page contains information about the ["Proof assistants" (PRFA, 2-7-2)](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-7-2)
   course in the second year (M2)
   of the [Parisian Master in Research in Computer Science (MPRI)](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start)
   taught by [Yannick Forster](https://yforster.de/) and
@@ -15,7 +15,6 @@ include-before: |
 
 Proof assistants have a wide range of applications from mathematical theorems (including some, like the four colour theorem, that have no proof without the use of a computer) to program verification (which can be crucial for critical software, e.g. in aviation settings or cryptography).
 
-Course objectives:
 The PRFA course aims at bringing students to a point where they are familiar enough with one proof assistant, namely Coq, with the objectives to have the students
 
 - to be able to use Coq in other courses,
