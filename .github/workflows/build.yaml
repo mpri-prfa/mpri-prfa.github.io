@@ -68,10 +68,7 @@ jobs:
             --toc
             --toc-depth=2
             --resource-path=.
-            README.md
-
-      - name: Move images
-        run: mv img doc
+            index.md
 
       - name: Setup Pages
         if: github.ref_name == github.event.repository.default_branch
