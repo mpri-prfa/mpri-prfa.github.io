@@ -816,6 +816,12 @@ code > span.in { color: #969896; font-weight: bold; font-style: italic; } /* Inf
 
 /*** Personal additions ***/
 
+/* LOGO */
+
+p:has(img.logo) {
+  text-align: center;
+}
+
 /* TIPS */
 
 div.tip {

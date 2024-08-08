@@ -3,7 +3,7 @@ title: Installing Coq
 title-prefix: Proof Assistants
 ---
 
-<p style="text-align:center;"><a href="https://mpri-prfa.github.io/"><img src="img/prfa-logo.svg" alt="MPRI PRFA" width="300px"></a></p>
+<a href="https://mpri-prfa.github.io/"><img src="img/prfa-logo.svg" alt="MPRI PRFA" width="300px" class="logo"></a>
 
 ## Installing Coq
 

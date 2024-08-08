@@ -2,7 +2,7 @@
 title: Proof Assistants
 title-prefix: MPRI M2
 include-before: |
-  <p style="text-align:center;"><img src="img/prfa-logo.svg" alt="MPRI PRFA" width="300px"></p>
+  <img src="img/prfa-logo.svg" alt="MPRI PRFA" width="300px" class="logo">
 
   This page contains information about the ["Proof assistants" (PRFA, 2-7-2)](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-7-2)
   course in the second year (M2)
