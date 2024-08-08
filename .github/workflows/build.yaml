@@ -57,12 +57,12 @@ jobs:
         if: ${{ always() }}
         run: sudo chown -R 1001:116 .  # <--
 
-      - name: Build homepage
+      - name: Build main homepage
         uses: docker://pandoc/core:3.2
         with:
-          args: >-  # allows you to break string into multiple lines
-            --from commonmark_x+alerts
+          args: >-  
             --standalone
+            --from commonmark_x+alerts
             --output=doc/index.html
             --template=pandoc/template.html4
             --css=github-pandoc.css
@@ -70,6 +70,18 @@ jobs:
             --toc-depth=2
             --resource-path=.
             index.md
+
+      - name: Build Installing Coq page
+        uses: docker://pandoc/core:3.2
+        with:
+          args: >- 
+            --standalone
+            --from commonmark_x+alerts
+            --output=doc/installcoq.html
+            --template=pandoc/template.html4
+            --css=github-pandoc.css
+            --resource-path=.
+            installcoq.md
 
       - name: Setup Pages
         if: github.ref_name == github.event.repository.default_branch
