@@ -11,3 +11,5 @@ Makefile.coq
 Makefile.coq.conf
 
 doc/coqdoc/*
+doc/index.html
+doc/installcoq.html
