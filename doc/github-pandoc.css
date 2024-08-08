@@ -822,6 +822,11 @@ p:has(img.logo) {
   text-align: center;
 }
 
+img.logo {
+  display: block;
+  margin: auto;
+}
+
 /* TIPS */
 
 div.tip {
