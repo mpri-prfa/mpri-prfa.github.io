@@ -893,18 +893,18 @@ div.caution > div.title p::before {
   margin-right: 4px;
 }
 
-div.caution {
+div.note {
   border-left: 4px solid rgb(46, 93, 233);
   padding-left: 10px;
 }
 
-div.caution > div.title p {
+div.note > div.title p {
   color: rgb(46, 93, 233);
   font-weight: bold;
   margin-bottom: -15px;
 }
 
-div.caution > div.title p::before {
+div.note > div.title p::before {
   content: 'ℹ️';
   margin-right: 4px;
 }
